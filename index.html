@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+<nav class="navbar">
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <!-- Dark Mode Toggle Button -->
+    <div class="dark-mode-toggle">
+        <input type="checkbox" id="dark-mode-toggle" />
+        <label for="dark-mode-toggle" class="toggle-label">
+            <i class="fas fa-moon"></i> <!-- Moon icon for dark mode -->
+            <i class="fas fa-sun"></i> <!-- Sun icon for light mode -->
+        </label>
+    </div>
+</nav>
+
+    <!-- Home Section -->
+<section id="home">
+    <div class="hero-content">
+        <!-- Profile Picture -->
+        <div class="profile-picture">
+            <img src="C:\Users\mrgou\Desktop\portfolio-website\images\IMG_9435new.jpg" alt="Your Name">
+        </div>
+        <!-- Name and Tagline -->
+        <h1>Goutham K Suresh</h1>
+        <p class="tagline"> Innovating the Future, One Line of Code at a Time</p>
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Write a brief description of your skills, experience, and professional background here.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="project-card">
+                <img src="C:\Users\mrgou\Desktop\portfolio-website\images\IMG_9435new.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Description of Project 1.</p>
+            </div>
+            <!-- Add more project cards here -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2023 Goutham K Suresh. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
